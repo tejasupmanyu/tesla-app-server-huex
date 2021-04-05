@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*"],
+  "sourceMap": true,
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}

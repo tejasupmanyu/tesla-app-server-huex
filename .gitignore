@@ -1,0 +1,11 @@
+node_modules
+public
+.idea
+.DS_Store
+logs
+dist
+.vscode
+yarn-error.log
+
+.yalc
+yalc.lock
