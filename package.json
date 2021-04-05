@@ -27,6 +27,6 @@
     "clean-dist": "rm -f -r -d dist",
     "build": "npm run clean-dist && tsc --skipLibCheck",
     "dev": "ts-node-dev --inspect --respawn --transpile-only --ignore-watch node_modules src/index.ts",
-    "start": "yarn dev"
+    "start": "node dist/index.js"
   }
 }
