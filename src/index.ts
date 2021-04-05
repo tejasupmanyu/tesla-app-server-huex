@@ -11,4 +11,4 @@ app.use('/healthCheck', (req: express.Request, res: express.Response) => {
 
 app.use('/models', router);
 
-app.listen(PORT, () => console.log('server is running on port ', PORT));
+app.listen(process.env.PORT || PORT, () => console.log('server is running on port ', PORT));
