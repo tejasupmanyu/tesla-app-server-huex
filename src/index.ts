@@ -1,8 +1,11 @@
 import * as express from 'express';
+import * as cors from 'cors';
 import router from './routes';
 
 const app = express();
 const PORT = 9100;
+
+app.use(cors());
 
 // Application routing
 app.use('/healthCheck', (req: express.Request, res: express.Response) => {
