@@ -2,7 +2,7 @@ export const allModels = {
   totalElements: 4,
   elements: [
     {
-      model: 'MODEL_S',
+      model: 'modelS',
       displayName: 'Model S',
       range: 390,
       acceleration: {
@@ -13,7 +13,7 @@ export const allModels = {
       peakPower: 1020,
     },
     {
-      model: 'MODEL_3',
+      model: 'model3',
       displayName: 'Model 3',
       range: 353,
       acceleration: {
@@ -23,7 +23,7 @@ export const allModels = {
       AWD: 'Dual Motor',
     },
     {
-      model: 'MODEL_X',
+      model: 'modelX',
       displayName: 'Model X',
       range: 340,
       acceleration: {
@@ -33,7 +33,7 @@ export const allModels = {
       peakPower: 1020,
     },
     {
-      model: 'MODEL_Y',
+      model: 'modelY',
       displayName: 'Model Y',
       range: 326,
       AWD: 'Dual Motor',
@@ -42,7 +42,7 @@ export const allModels = {
 };
 
 export const modelSDetails = {
-  model: 'MODEL_S',
+  model: 'modelS',
   displayName: 'Model S',
   variants: [
     {
@@ -83,7 +83,7 @@ export const modelSDetails = {
 };
 
 export const modelSConfigurationOptions = {
-  model: 'MODEL_S',
+  model: 'modelS',
   displayName: 'Model S',
   variants: [
     {
