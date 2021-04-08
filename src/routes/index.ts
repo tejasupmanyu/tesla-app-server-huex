@@ -1,5 +1,12 @@
 import * as Express from 'express';
-import { allModels, modelSConfigurationOptions, modelSDetails } from '../models';
+import {
+  allModels,
+  model3Details,
+  modelSConfigurationOptions,
+  modelSDetails,
+  modelXDetails,
+  modelYDetails,
+} from '../models';
 
 const router = Express.Router();
 
@@ -13,6 +20,18 @@ router.get('/modelS', (_, res) => {
 
 router.get('/modelS/configure', (_, res) => {
   res.send(modelSConfigurationOptions);
+});
+
+router.get('/modelX', (_, res) => {
+  res.send(modelXDetails);
+});
+
+router.get('/model3', (_, res) => {
+  res.send(model3Details);
+});
+
+router.get('/modelY', (_, res) => {
+  res.send(modelYDetails);
 });
 
 export default router;
