@@ -102,6 +102,7 @@ export const modelSConfigurationOptions = {
       dragCoefficient: '0.208 Cd',
       powertrain: 'Tri Motor',
       superchargingMax: '250kW',
+      price: 119990,
     },
     {
       variant: 'LONG_RANGE',
@@ -119,6 +120,7 @@ export const modelSConfigurationOptions = {
       dragCoefficient: '0.208 Cd',
       powertrain: 'Dual Motor',
       superchargingMax: '250kW',
+      price: 79990,
     },
   ],
   paints: [
@@ -229,6 +231,84 @@ export const model3Details = {
       price: 30190,
     },
   ],
+};
+
+export const model3ConfigurationOptions = {
+  model: 'model3',
+  displayName: 'Model 3',
+  variants: [
+    {
+      variant: 'PERFORMANCE',
+      variantName: 'Performance',
+      range: 315,
+      peakPower: '650 hp',
+      wheels: [20],
+      cargo: '15 cu ft',
+      weight: 4065,
+      acceleration: {
+        speed: '0-60',
+        time: 1.99,
+      },
+      topSpeed: 200,
+      powertrain: 'Tri Motor',
+      superchargingMax: '250kW',
+      price: 56990,
+    },
+    {
+      variant: 'LONG_RANGE',
+      variantName: 'Long Range',
+      range: 353,
+      peakPower: '520 hp',
+      wheels: [18, 19],
+      cargo: '15 cu ft',
+      weight: 4065,
+      acceleration: {
+        speed: '0-60',
+        time: 4.2,
+      },
+      topSpeed: 145,
+      powertrain: 'Dual Motor',
+      superchargingMax: '250kW',
+      price: 47990,
+    },
+  ],
+  paints: [
+    {
+      name: 'Pearl White',
+      price: 0,
+      default: true,
+      src:
+        'https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/Paint_White.png?&version=v0028d202104010407',
+    },
+    {
+      name: 'Metallic Red',
+      price: 2500,
+      default: false,
+      src:
+        'https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/Paint_Red.png?&version=v0028d202104010407',
+    },
+    {
+      name: 'Solid Black',
+      price: 1500,
+      default: false,
+      src:
+        'https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/Paint_Black.png?&version=v0028d202104010407',
+    },
+  ],
+  wheels: [
+    {
+      name: '20" Überturbine Wheels',
+      price: 0,
+      default: true,
+      src:
+        'https://static-assets.tesla.com/share/tesla_design_studio_assets/MODEL3/UI/option-wheels-20-uberturbine.png?&version=v0028d202104080411',
+    },
+  ],
+  selfDriving: {
+    available: true,
+    default: false,
+    price: 10000,
+  },
 };
 
 export const modelYDetails = {

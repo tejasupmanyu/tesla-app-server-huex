@@ -1,6 +1,7 @@
 import * as Express from 'express';
 import {
   allModels,
+  model3ConfigurationOptions,
   model3Details,
   modelSConfigurationOptions,
   modelSDetails,
@@ -28,6 +29,10 @@ router.get('/modelX', (_, res) => {
 
 router.get('/model3', (_, res) => {
   res.send(model3Details);
+});
+
+router.get('/model3/configure', (_, res) => {
+  res.send(model3ConfigurationOptions);
 });
 
 router.get('/modelY', (_, res) => {
